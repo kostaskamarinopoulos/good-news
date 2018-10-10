@@ -1,46 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45089ca8-ea06-47e8-8902-4eed759aa9d3" name="Default Changelist" comment="" />
+    <list default="true" id="45089ca8-ea06-47e8-8902-4eed759aa9d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1848545059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Dockerfile" value="3" />
+          <entry key="config" value="1" />
+          <entry key="env" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="json" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="1" />
+          <entry key="Dockerfile" value="3" />
           <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SmartyConfig" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="18" />
+          <entry key="gitignore" value="4" />
+          <entry key="yml" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dockerfile" value="18" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="YAML" value="22" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292" />
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-config/php/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>default.conf</find>
+      <find>var/www/</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docker-config/php/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-config/nginx/default.config" />
+        <option value="$PROJECT_DIR$/docker-config/mysql/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker-config/nginx/Dockerfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -74,8 +149,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1321" />
-    <option name="y" value="48" />
+    <option name="x" value="-1641" />
+    <option name="y" value="66" />
     <option name="width" value="1245" />
     <option name="height" value="964" />
   </component>
@@ -84,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,16 +166,35 @@
               <item name="good-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="good-news" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="good-news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="good-news" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="good-news" type="b2602c69:ProjectViewProjectNode" />
+              <item name="good-news" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-config" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-config/nginx" />
+      <recent name="$PROJECT_DIR$/build/nginx" />
+      <recent name="$PROJECT_DIR$/build" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,24 +218,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539183149592</updated>
-      <workItem from="1539183151002" duration="357000" />
+      <workItem from="1539183151002" duration="757000" />
+      <workItem from="1539184654304" duration="2927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357000" />
+    <option name="totallyTimeSpent" value="3684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1321" y="48" width="1245" height="964" extended-state="0" />
+    <frame x="-1641" y="66" width="1245" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24937657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25353283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -150,10 +240,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,9 +258,52 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/docker-config/mysql/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-config/php/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-config/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-config/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
   </component>
