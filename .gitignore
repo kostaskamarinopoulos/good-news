@@ -6,8 +6,4 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-.idea/workspace.xml
-.idea/vcs.xml
-
-.idea/good-news.iml
-.idea/php.xml
+.idea/*
